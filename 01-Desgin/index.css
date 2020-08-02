@@ -1,0 +1,157 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background: -webkit-linear-gradient(left, #45046A 0%, #5C2A9E 100%);
+    width: 100%;
+    height: 100%;
+}
+
+div
+{
+    box-sizing: border-box;
+}
+
+header
+{
+    width: 100%;
+}
+
+.arhcoder
+{
+    width: 100%;
+    height: 80px;
+    background: #45046A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arhcoder > a > img
+{
+    height: 30px;
+}
+
+.navegator
+{
+    width: 100%;
+    height: 80px;
+    background: -webkit-linear-gradient(left, #45046A 0%, #5C2A9E 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #FFF;
+}
+
+    .navegator-menu
+    {
+        width: 34%;
+        height: 100%;
+        margin-left: 6%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+        .navegator-menu-option
+        {
+            height: 100%;
+            padding: 0 23px;
+            display: flex;
+            align-items: center;
+        }
+
+        .navegator-menu-option > a
+        {
+            font-family: "Gotham Book";
+            font-weight: lighter;
+            font-size: 23px;
+            color: #FFF;
+            text-decoration: none;
+        }
+
+    .navegator-special
+    {
+        width: 34%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 6%;
+    }
+
+        .blog-button
+        {
+            font-family: "Gotham Medium";
+            font-weight: bold;
+            font-size: 23px;
+            color: #FFF;
+            text-decoration: none;
+            padding: 10px 28px;
+            border-radius: 8pt;
+            border: 1px solid #FFF;
+        }
+
+.content
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.panel
+{
+    width: 11%;
+    height: inherit;
+    margin-left: 6%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.panel > ul
+{
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    margin-left: 23px;
+}
+
+.panel > ul > li
+{
+    list-style: none;
+}
+
+.panel > ul > li > a > img
+{
+    width: 36px;
+    height: 36px;
+}
+
+.content-page
+{
+    width: 66%;
+    height: inherit;
+}
+
+.content-title
+{
+    width: 100%;
+    height: 80px;
+    background: #B6086C;
+    font-family: "Gotham Bold";
+    font-weight: normal;
+    font-size: 25px;
+    color: #FFF;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 40px;
+    margin-top: 60px;
+}
