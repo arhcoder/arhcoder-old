@@ -31,6 +31,8 @@ header
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 10;
 }
 
 .arhcoder > a > img
@@ -43,10 +45,12 @@ header
     width: 100%;
     height: 80px;
     background: -webkit-linear-gradient(left, #45046A 0%, #5C2A9E 100%);
+    background: #5C2A9E;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #FFF;
+    position: relative;
+    z-index: 0;
 }
 
     .navegator-menu
@@ -101,8 +105,6 @@ header
 {
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: flex-start;
 }
 
 .panel
@@ -138,6 +140,7 @@ header
 {
     width: 66%;
     height: inherit;
+    margin: auto;
 }
 
 .content-title
@@ -155,3 +158,65 @@ header
     padding-left: 40px;
     margin-top: 60px;
 }
+
+.projects
+{
+    width: 100%;
+    color: #3F3844;
+}
+
+.normal-projects
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.project-box
+{
+    width: 420px;
+    height: 200px;
+    background: #F8F8FF;
+    margin: 0 auto 40px;
+    flex-shrink: 0;
+}
+
+    .project-box-icon
+    {
+
+    }
+
+    .project-box-icon img
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+
+
+
+
+
+
+
+    /* HOVERS */
+
+    .navegator:hover
+    {
+        box-shadow: 0px 8px 18px 0px #00000066;
+    }
+
+    .navegator-menu-option:hover
+    {
+        background: #45046A;
+        color: #B6086C;
+    }
+
+    .navegator-menu-option a:hover
+    {
+        color: #B6086C;
+    }
