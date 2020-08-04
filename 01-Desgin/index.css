@@ -212,11 +212,57 @@ de redes sociales. Se eliminó por mera cuestión estética.
     .project-box-description
     {
         width: 66%;
-        height: 100%;
+        height: 80%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
+        text-align: center;
+    }
+
+    .project-box-description h3
+    {
+        font-family: "Gotham Medium";
+        font-size: 26px;
+        font-weight: normal;
+    }
+
+    .project-box-description p
+    {
+        font-family: "Gotham Book";
+        font-size: 16px;
+    }
+
+    .project-box-description a
+    {
+        padding: 8px 0;
+        width: 68%;
+        height: auto;
+        font-family: "Gotham Medium";
+        font-size: 24px;
+        color: #FFF;
+        border-radius: 8pt;
+        text-decoration: none;
+    }
+
+    #software-project-button
+    {
+        background: #BB30BB;
+    }
+
+    #music-project-button
+    {
+        background: #0084F6;
+    }
+
+    #design-project-button
+    {
+        background: #3CDC32;
+    }
+
+    #audiovisual-project-button
+    {
+        background: #DA0A16;
     }
 
 #special-projects-title
@@ -236,20 +282,76 @@ de redes sociales. Se eliminó por mera cuestión estética.
     .special-project-box
     {
         width: 100%;
-        height: 100%;
+        height: 280px;
         background: #F8F8FF;
         border-radius: 8pt;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .special-project-box-photo
     {
-
+        width: 46%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid #3F3844;
     }
 
     .special-project-box-photo img
     {
         width: 300px;
         height: 200px;
+    }
+
+    .special-project-box-description
+    {
+        width: 54%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+
+    .special-project-box-description h3,
+    .special-project-box-description p,
+    .special-project-box-description a
+    {
+        width: 60%;
+    }
+
+    .special-project-box-description h3
+    {
+        font-family: "Gotham Medium";
+        font-size: 28px;
+        font-weight: normal;
+    }
+
+    .special-project-box-description p
+    {
+        font-family: "Gotham Book";
+        font-size: 16px;
+        width: 66%;
+        text-align: center;
+    }
+
+    .special-project-box-description a
+    {
+        padding: 8px 0;
+        font-family: "Gotham Medium";
+        font-size: 24px;
+        color: #FFF;
+        border-radius: 8pt;
+        text-decoration: none;
+    }
+
+    #ensecode-project-button
+    {
+        background: #0858C3;
     }
 
     .blog-banner
@@ -358,6 +460,14 @@ de redes sociales. Se eliminó por mera cuestión estética.
         border-color: #B6086C;
         padding: 12px 28px;
     }
+
+    .project-box:hover, .special-project-box:hover
+    {
+        background: #FFF;
+        color: #45046A;
+        box-shadow: 0px 0px 12px 6px rgba(0,0,0,0.4);
+    }
+
 
     .subnavegator:hover
     {
