@@ -190,12 +190,13 @@ de redes sociales. Se eliminó por mera cuestión estética.
     background: #F8F8FF;
     border-radius: 8pt;
     display: flex;
+    align-items: center;
 }
 
     .project-box-icon
     {
         width: 34%;
-        height: 100%;
+        height: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
