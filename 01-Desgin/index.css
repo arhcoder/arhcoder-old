@@ -265,11 +265,6 @@ de redes sociales. Se eliminó por mera cuestión estética.
         background: #DA0A16;
     }
 
-#special-projects-title
-{
-    margin-top: 40px;
-}
-
 .special-projects
 {
     width: 100%;
@@ -415,14 +410,6 @@ de redes sociales. Se eliminó por mera cuestión estética.
         margin-top: 40px;
     }
 
-
-
-
-
-
-
-
-
     .subnavegator
     {
         width: 100%;
@@ -441,7 +428,7 @@ de redes sociales. Se eliminó por mera cuestión estética.
 
     .arhcoder:hover
     {
-        box-shadow: 0px 5px 18px 0px #00000099;
+        box-shadow: 0px 5px 18px 0px #00000098;
     }
 
     .navegator:hover
@@ -464,10 +451,45 @@ de redes sociales. Se eliminó por mera cuestión estética.
     .project-box:hover, .special-project-box:hover
     {
         background: #FFF;
-        color: #45046A;
-        box-shadow: 0px 0px 12px 6px rgba(0,0,0,0.4);
+        color: #5C2A9E;
+        box-shadow: 0px 0px 16px 6px #00000066;
     }
 
+    .project-box:hover > .project-box-icon
+    {
+        border-right: 1px solid #5C2A9E;
+    }
+
+    .special-project-box:hover > .special-project-box-photo
+    {
+        border-right: 1px solid #5C2A9E;
+        
+    }
+
+    #software-project-button:hover
+    {
+        background-color: #A01CA0 !important;
+    }
+
+    #music-project-button:hover
+    {
+        background-color: #006AD8 !important;
+    }
+
+    #design-project-button:hover
+    {
+        background-color: #28C41C !important;
+    }
+
+    #audiovisual-project-button:hover
+    {
+        background-color: #BE0000 !important;
+    }
+
+    #ensecode-project-button:hover
+    {
+        background-color: #0044A0 !important;
+    }
 
     .subnavegator:hover
     {
