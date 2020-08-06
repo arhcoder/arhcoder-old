@@ -1,3 +1,4 @@
+/* STYLES -------------------------------------------------------> */
 *
 {
     margin: 0;
@@ -596,7 +597,7 @@ footer, footer a
     align-items: center;
 }
 
-/* HOVERS */
+/* HOVERS -------------------------------------------------------> */
 .arhcoder:hover
 {
     box-shadow: 0px 5px 18px 0px #00000098;
@@ -675,5 +676,88 @@ footer, footer a
 
 .footer:hover
 {
-    box-shadow: 0px -8px 18px 0px #00000098;s
+    box-shadow: 0px -8px 18px 0px #00000098;
+}
+
+/* MEDIA QUERIES ------------------------------------------------ >*/
+
+/* Full 4K */
+@media screen and (max-width: 2000px)
+{
+    .page
+    {
+        width: 50%;
+    }
+}
+
+/* 4K */
+@media screen and (max-width: 1800px)
+{
+    .page
+    {
+        width: 60%;
+    }
+}
+
+/* Big Desktop */
+@media screen and (max-width: 1600px)
+{
+    .page
+    {
+        width: 68%;
+    }
+}
+
+/* Original */
+@media screen and (max-width: 1300px)
+{
+    .page
+    {
+        width: 76%;
+    }
+}
+
+/* Desktop Normal*/
+@media screen and (max-width: 1200px)
+{
+    .page
+    {
+        width: 80%;
+    }
+}
+
+/* Desktop Pequeño */
+@media screen and (max-width: 1100px)
+{
+    .page
+    {
+        width: 86%;
+    }
+}
+
+/* Medio */
+@media screen and (max-width: 900px)
+{
+    .page
+    {
+        width: 96%;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 800px)
+{
+    
+}
+
+/* Normal Phone */
+@media screen and (max-width: 480px)
+{
+
+}
+
+/* Mini Phone */
+@media screen and (max-width: 320px)
+{
+
 }
