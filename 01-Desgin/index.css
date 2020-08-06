@@ -13,11 +13,6 @@ body
     height: 100%;
 }
 
-body img
-{
-    height: 40px;
-}
-
 div
 {
     box-sizing: border-box;
@@ -471,10 +466,53 @@ de redes sociales. Se eliminó por mera cuestión estética.
     .contact-box
     {
         width: 100%;
-        height: 100%;
+        height: 160px;
         background: #F8F8FF;
         border-radius: 8pt;
         margin-top: 40px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .contact-box-icon
+    {
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-box-icon img
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    .contact-box-name
+    {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-family: "Gotham Medium";
+        font-size: 32px;
+    }
+
+    .contact-box-name a
+    {
+        text-decoration: none;
+        color: #3F3844;
+    }
+
+    footer, footer a
+    {
+        font-family: "Gotham Book";
+        font-size: 16px;
+        color: #FFF;
+        text-decoration: none;
     }
 
     .subnavegator
@@ -484,12 +522,74 @@ de redes sociales. Se eliminó por mera cuestión estética.
         background: #5C2A9E;
     }
 
-    .footer
+    .subnavegator-content
     {
-        width: 100%;
-        height: 80px;
-        background: #45046A;
+        width: 68%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
+
+        .information
+        {
+            width: 20%;
+            height: 100%;
+            margin-left: 23px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .subnavegator-panel
+        {
+            width: 60%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+        }
+
+            .social-balls
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                list-style: none;
+            }
+
+            .social-balls li
+            {
+                margin: 0 2px;
+            }
+
+            .social-balls a img, .up a img
+            {
+                width: 38px;
+                height: 38px;
+            }
+
+        .up
+        {
+            width: 20%;
+            height: 100%;
+            margin-right: 23px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+.footer
+{
+    width: 100%;
+    height: 80px;
+    background: #45046A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
     /* HOVERS */
     .arhcoder:hover
@@ -515,7 +615,7 @@ de redes sociales. Se eliminó por mera cuestión estética.
     }
 
     .project-box:hover, .special-project-box:hover,
-    .social-media-box:hover
+    .social-media-box:hover, .contact-box:hover
     {
         background: #FFF;
         color: #5C2A9E;
@@ -557,7 +657,8 @@ de redes sociales. Se eliminó por mera cuestión estética.
         background-color: #0044A0 !important;
     }
 
-    .social-media-box:hover > .social-media-name a
+    .social-media-box:hover > .social-media-name a,
+    .contact-box:hover > .contact-box-name a
     {
         color: #5C2A9E !important;
     } 
@@ -565,4 +666,9 @@ de redes sociales. Se eliminó por mera cuestión estética.
     .subnavegator:hover
     {
         box-shadow: 0px -8px 18px 0px #00000066;
+    }
+
+    .footer:hover
+    {
+        box-shadow: 0px -8px 18px 0px #00000098;s
     }
