@@ -23,6 +23,11 @@ header
     width: 100%;
 }
 
+footer
+{
+    width: 100%;
+}
+
 .arhcoder
 {
     width: 100%;
@@ -79,27 +84,27 @@ header
             text-decoration: none;
         }
 
-    .navegator-special
-    {
-        width: 34%;
-        height: 100%;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        margin-right: 6%;
-    }
-
-        .blog-button
+        .navegator-special
         {
-            font-family: "Gotham Medium";
-            font-weight: bold;
-            font-size: 23px;
-            color: #FFF;
-            text-decoration: none;
-            padding: 10px 28px;
-            border-radius: 8pt;
-            border: 1px solid #FFF;
+            width: 34%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-right: 6%;
         }
+
+            .blog-button
+            {
+                font-family: "Gotham Medium";
+                font-weight: bold;
+                font-size: 23px;
+                color: #FFF;
+                text-decoration: none;
+                padding: 10px 28px;
+                border-radius: 8pt;
+                border: 1px solid #FFF;
+            }
 
 .content
 {
@@ -168,241 +173,241 @@ de redes sociales. Se eliminó por mera cuestión estética.
     color: #3F3844;
 }
 
-.normal-projects
-{
-    width: 100%;
-    padding-top: 40px;
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-}
-
-.project-box
-{
-    width: 100%;
-    height: 200px;
-    background: #F8F8FF;
-    border-radius: 8pt;
-    display: flex;
-    align-items: center;
-}
-
-    .project-box-icon
+    .normal-projects
     {
-        width: 34%;
-        height: 80%;
+        width: 100%;
+        padding-top: 40px;
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+        .project-box
+        {
+            width: 100%;
+            height: 200px;
+            background: #F8F8FF;
+            border-radius: 8pt;
+            display: flex;
+            align-items: center;
+        }
+
+            .project-box-icon
+            {
+                width: 34%;
+                height: 80%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-right: 1px solid #3F3844;
+            }
+
+            .project-box-icon img
+            {
+                width: 100px;
+                height: 100px;
+            }
+
+            .project-box-description
+            {
+                width: 66%;
+                height: 80%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                text-align: center;
+            }
+
+            .project-box-description h3
+            {
+                font-family: "Gotham Medium";
+                font-size: 26px;
+                font-weight: normal;
+            }
+
+            .project-box-description p
+            {
+                font-family: "Gotham Book";
+                font-size: 16px;
+            }
+
+            .project-box-description a
+            {
+                padding: 8px 0;
+                width: 68%;
+                height: auto;
+                font-family: "Gotham Medium";
+                font-size: 24px;
+                color: #FFF;
+                border-radius: 8pt;
+                text-decoration: none;
+            }
+
+            #software-project-button
+            {
+                background: #BB30BB;
+            }
+
+            #music-project-button
+            {
+                background: #0084F6;
+            }
+
+            #design-project-button
+            {
+                background: #3CDC32;
+            }
+
+            #audiovisual-project-button
+            {
+                background: #DA0A16;
+            }
+
+    .special-projects
+    {
+        width: 100%;
+        padding-top: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
-        border-right: 1px solid #3F3844;
     }
 
-    .project-box-icon img
-    {
-        width: 100px;
-        height: 100px;
-    }
+        .special-project-box
+        {
+            width: 100%;
+            height: 280px;
+            background: #F8F8FF;
+            border-radius: 8pt;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-    .project-box-description
-    {
-        width: 66%;
-        height: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        text-align: center;
-    }
+            .special-project-box-photo
+            {
+                width: 46%;
+                height: 80%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-right: 1px solid #3F3844;
+            }
 
-    .project-box-description h3
-    {
-        font-family: "Gotham Medium";
-        font-size: 26px;
-        font-weight: normal;
-    }
+            .special-project-box-photo img
+            {
+                width: 300px;
+                height: 200px;
+            }
 
-    .project-box-description p
-    {
-        font-family: "Gotham Book";
-        font-size: 16px;
-    }
+            .special-project-box-description
+            {
+                width: 54%;
+                height: 80%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                text-align: center;
+            }
 
-    .project-box-description a
-    {
-        padding: 8px 0;
-        width: 68%;
-        height: auto;
-        font-family: "Gotham Medium";
-        font-size: 24px;
-        color: #FFF;
-        border-radius: 8pt;
-        text-decoration: none;
-    }
+            .special-project-box-description h3,
+            .special-project-box-description p,
+            .special-project-box-description a
+            {
+                width: 60%;
+            }
 
-    #software-project-button
-    {
-        background: #BB30BB;
-    }
+            .special-project-box-description h3
+            {
+                font-family: "Gotham Medium";
+                font-size: 28px;
+                font-weight: normal;
+            }
 
-    #music-project-button
-    {
-        background: #0084F6;
-    }
+            .special-project-box-description p
+            {
+                font-family: "Gotham Book";
+                font-size: 16px;
+                width: 66%;
+                text-align: center;
+            }
 
-    #design-project-button
-    {
-        background: #3CDC32;
-    }
+            .special-project-box-description a
+            {
+                padding: 8px 0;
+                font-family: "Gotham Medium";
+                font-size: 24px;
+                color: #FFF;
+                border-radius: 8pt;
+                text-decoration: none;
+            }
 
-    #audiovisual-project-button
-    {
-        background: #DA0A16;
-    }
+            #ensecode-project-button
+            {
+                background: #0858C3;
+            }
 
-.special-projects
+.blog-banner
 {
     width: 100%;
-    padding-top: 40px;
+    height: 400px;
+    margin-top: 60px;
+    background: #B6086C;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Gotham Medium";
+    color: #FFF;
+    font-size: 26px;
 }
 
-    .special-project-box
+    .blog-banner-image
     {
-        width: 100%;
-        height: 280px;
-        background: #F8F8FF;
-        border-radius: 8pt;
+        width: 50%;
+        height: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
-    .special-project-box-photo
+    .blog-banner-image img
     {
-        width: 46%;
-        height: 80%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-right: 1px solid #3F3844;
+        height: 300px;
     }
 
-    .special-project-box-photo img
+    .blog-banner-message
     {
-        width: 300px;
-        height: 200px;
-    }
-
-    .special-project-box-description
-    {
-        width: 54%;
-        height: 80%;
+        width: 50%;
+        height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         text-align: center;
     }
 
-    .special-project-box-description h3,
-    .special-project-box-description p,
-    .special-project-box-description a
+    .blog-banner-message p
     {
-        width: 60%;
+        width: 80%;
     }
 
-    .special-project-box-description h3
+    .blog-banner-message a
     {
-        font-family: "Gotham Medium";
-        font-size: 28px;
-        font-weight: normal;
-    }
-
-    .special-project-box-description p
-    {
-        font-family: "Gotham Book";
-        font-size: 16px;
-        width: 66%;
-        text-align: center;
-    }
-
-    .special-project-box-description a
-    {
-        padding: 8px 0;
-        font-family: "Gotham Medium";
-        font-size: 24px;
+        width: 68%;
+        padding: 12px 0;
+        background: #0084F6;
         color: #FFF;
+        margin-top: 50px;
         border-radius: 8pt;
         text-decoration: none;
     }
 
-    #ensecode-project-button
-    {
-        background: #0858C3;
-    }
-
-    .blog-banner
-    {
-        width: 100%;
-        height: 400px;
-        margin-top: 60px;
-        background: #B6086C;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: "Gotham Medium";
-        color: #FFF;
-        font-size: 26px;
-    }
-
-        .blog-banner-image
-        {
-            width: 50%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .blog-banner-image img
-        {
-            height: 300px;
-        }
-
-        .blog-banner-message
-        {
-            width: 50%;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-
-        .blog-banner-message p
-        {
-            width: 80%;
-        }
-
-        .blog-banner-message a
-        {
-            width: 68%;
-            padding: 12px 0;
-            background: #0084F6;
-            color: #FFF;
-            margin-top: 50px;
-            border-radius: 8pt;
-            text-decoration: none;
-        }
-
-    .social-media
-    {
-        width: 100%;
-    }
+.social-media
+{
+    width: 100%;
+}
 
     .social-networks
     {
@@ -414,48 +419,48 @@ de redes sociales. Se eliminó por mera cuestión estética.
         gap: 40px;
     }
 
-    .social-media-box
-    {
-        width: 100%;
-        height: 160px;
-        background: #F8F8FF;
-        border-radius: 8pt;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+        .social-media-box
+        {
+            width: 100%;
+            height: 160px;
+            background: #F8F8FF;
+            border-radius: 8pt;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-    .social-media-icon
-    {
-        width: 40%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+            .social-media-icon
+            {
+                width: 40%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
 
-    .social-media-icon img
-    {
-        width: 100px;
-        height: 100px;
-    }
+            .social-media-icon img
+            {
+                width: 100px;
+                height: 100px;
+            }
 
-    .social-media-name
-    {
-        width: 60%;
-        height: 100%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        font-family: "Gotham Medium";
-        font-size: 32px;
-    }
+            .social-media-name
+            {
+                width: 60%;
+                height: 100%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                font-family: "Gotham Medium";
+                font-size: 32px;
+            }
 
-    .social-media-name a
-    {
-        text-decoration: none;
-        color: #3F3844;
-    }
+            .social-media-name a
+            {
+                text-decoration: none;
+                color: #3F3844;
+            }
 
 .contact
 {
@@ -475,52 +480,52 @@ de redes sociales. Se eliminó por mera cuestión estética.
         align-items: center;
     }
 
-    .contact-box-icon
-    {
-        width: 20%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+        .contact-box-icon
+        {
+            width: 20%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-    .contact-box-icon img
-    {
-        width: 100px;
-        height: 100px;
-    }
+        .contact-box-icon img
+        {
+            width: 100px;
+            height: 100px;
+        }
 
-    .contact-box-name
-    {
-        width: 80%;
-        height: 100%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        font-family: "Gotham Medium";
-        font-size: 32px;
-    }
+        .contact-box-name
+        {
+            width: 80%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            font-family: "Gotham Medium";
+            font-size: 32px;
+        }
 
-    .contact-box-name a
-    {
-        text-decoration: none;
-        color: #3F3844;
-    }
+        .contact-box-name a
+        {
+            text-decoration: none;
+            color: #3F3844;
+        }
 
-    footer, footer a
-    {
-        font-family: "Gotham Book";
-        font-size: 16px;
-        color: #FFF;
-        text-decoration: none;
-    }
+footer, footer a
+{
+    font-family: "Gotham Book";
+    font-size: 16px;
+    color: #FFF;
+    text-decoration: none;
+}
 
-    .subnavegator
-    {
-        width: 100%;
-        height: 80px;
-        background: #5C2A9E;
-    }
+.subnavegator
+{
+    width: 100%;
+    height: 80px;
+    background: #5C2A9E;
+}
 
     .subnavegator-content
     {
@@ -591,84 +596,84 @@ de redes sociales. Se eliminó por mera cuestión estética.
     align-items: center;
 }
 
-    /* HOVERS */
-    .arhcoder:hover
-    {
-        box-shadow: 0px 5px 18px 0px #00000098;
-    }
+/* HOVERS */
+.arhcoder:hover
+{
+    box-shadow: 0px 5px 18px 0px #00000098;
+}
 
-    .navegator:hover
-    {
-        box-shadow: 0px 8px 18px 0px #00000066;
-    }
+.navegator:hover
+{
+    box-shadow: 0px 8px 18px 0px #00000066;
+}
 
-    .navegator-menu-option:hover
-    {
-        background: #45046A;
-    }
+.navegator-menu-option:hover
+{
+    background: #45046A;
+}
 
-    .blog-button:hover
-    {
-        background: #B6086C;
-        border-color: #B6086C;
-        padding: 12px 28px;
-    }
+.blog-button:hover
+{
+    background: #B6086C;
+    border-color: #B6086C;
+    padding: 12px 28px;
+}
 
-    .project-box:hover, .special-project-box:hover,
-    .social-media-box:hover, .contact-box:hover
-    {
-        background: #FFF;
-        color: #5C2A9E;
-        box-shadow: 0px 0px 16px 6px #00000066;
-    }
+.project-box:hover, .special-project-box:hover,
+.social-media-box:hover, .contact-box:hover
+{
+    background: #FFF;
+    color: #5C2A9E;
+    box-shadow: 0px 0px 16px 6px #00000066;
+}
 
-    .project-box:hover > .project-box-icon
-    {
-        border-right: 1px solid #5C2A9E;
-    }
+.project-box:hover > .project-box-icon
+{
+    border-right: 1px solid #5C2A9E;
+}
 
-    .special-project-box:hover > .special-project-box-photo
-    {
-        border-right: 1px solid #5C2A9E;
-    }
+.special-project-box:hover > .special-project-box-photo
+{
+    border-right: 1px solid #5C2A9E;
+}
 
-    #software-project-button:hover
-    {
-        background-color: #A01CA0 !important;
-    }
+#software-project-button:hover
+{
+    background-color: #A01CA0 !important;
+}
 
-    #music-project-button:hover, .blog-banner-button:hover
-    {
-        background-color: #006AD8 !important;
-    }
+#music-project-button:hover, .blog-banner-button:hover
+{
+    background-color: #006AD8 !important;
+}
 
-    #design-project-button:hover
-    {
-        background-color: #28C41C !important;
-    }
+#design-project-button:hover
+{
+    background-color: #28C41C !important;
+}
 
-    #audiovisual-project-button:hover
-    {
-        background-color: #BE0000 !important;
-    }
+#audiovisual-project-button:hover
+{
+    background-color: #BE0000 !important;
+}
 
-    #ensecode-project-button:hover
-    {
-        background-color: #0044A0 !important;
-    }
+#ensecode-project-button:hover
+{
+    background-color: #0044A0 !important;
+}
 
-    .social-media-box:hover > .social-media-name a,
-    .contact-box:hover > .contact-box-name a
-    {
-        color: #5C2A9E !important;
-    } 
+.social-media-box:hover > .social-media-name a,
+.contact-box:hover > .contact-box-name a
+{
+    color: #5C2A9E !important;
+} 
 
-    .subnavegator:hover
-    {
-        box-shadow: 0px -8px 18px 0px #00000066;
-    }
+.subnavegator:hover
+{
+    box-shadow: 0px -8px 18px 0px #00000066;
+}
 
-    .footer:hover
-    {
-        box-shadow: 0px -8px 18px 0px #00000098;s
-    }
+.footer:hover
+{
+    box-shadow: 0px -8px 18px 0px #00000098;s
+}
