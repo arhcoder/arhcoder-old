@@ -355,26 +355,58 @@ de redes sociales. Se eliminó por mera cuestión estética.
         height: 400px;
         margin-top: 60px;
         background: #B6086C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Gotham Medium";
+        color: #FFF;
+        font-size: 26px;
     }
 
         .blog-banner-image
         {
-            display: inline-block;
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         .blog-banner-image img
         {
-            height: 380px;
+            height: 300px;
         }
 
         .blog-banner-message
         {
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
 
+        .blog-banner-message p
+        {
+            width: 80%;
+        }
+
+        .blog-banner-message a
+        {
+            width: 68%;
+            padding: 12px 0;
+            background: #0084F6;
+            color: #FFF;
+            margin-top: 50px;
+            border-radius: 8pt;
+            text-decoration: none;
         }
 
     .social-media
     {
-        
+        width: 100%;
     }
 
     .social-networks
@@ -390,9 +422,44 @@ de redes sociales. Se eliminó por mera cuestión estética.
     .social-media-box
     {
         width: 100%;
-        height: 100%;
+        height: 160px;
         background: #F8F8FF;
         border-radius: 8pt;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-media-icon
+    {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-media-icon img
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    .social-media-name
+    {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-family: "Gotham Medium";
+        font-size: 32px;
+    }
+
+    .social-media-name a
+    {
+        text-decoration: none;
+        color: #3F3844;
     }
 
 .contact
@@ -425,7 +492,6 @@ de redes sociales. Se eliminó por mera cuestión estética.
     }
 
     /* HOVERS */
-
     .arhcoder:hover
     {
         box-shadow: 0px 5px 18px 0px #00000098;
@@ -448,7 +514,8 @@ de redes sociales. Se eliminó por mera cuestión estética.
         padding: 12px 28px;
     }
 
-    .project-box:hover, .special-project-box:hover
+    .project-box:hover, .special-project-box:hover,
+    .social-media-box:hover
     {
         background: #FFF;
         color: #5C2A9E;
@@ -463,7 +530,6 @@ de redes sociales. Se eliminó por mera cuestión estética.
     .special-project-box:hover > .special-project-box-photo
     {
         border-right: 1px solid #5C2A9E;
-        
     }
 
     #software-project-button:hover
@@ -471,7 +537,7 @@ de redes sociales. Se eliminó por mera cuestión estética.
         background-color: #A01CA0 !important;
     }
 
-    #music-project-button:hover
+    #music-project-button:hover, .blog-banner-button:hover
     {
         background-color: #006AD8 !important;
     }
@@ -490,6 +556,11 @@ de redes sociales. Se eliminó por mera cuestión estética.
     {
         background-color: #0044A0 !important;
     }
+
+    .social-media-box:hover > .social-media-name a
+    {
+        color: #5C2A9E !important;
+    } 
 
     .subnavegator:hover
     {
