@@ -711,7 +711,7 @@ footer, footer a
 /* Original */
 @media screen and (max-width: 1300px)
 {
-    .page
+    .page, .subnavegator-content
     {
         width: 76%;
     }
@@ -720,7 +720,7 @@ footer, footer a
 /* Desktop Normal*/
 @media screen and (max-width: 1200px)
 {
-    .page
+    .page, .subnavegator-content
     {
         width: 80%;
     }
@@ -729,7 +729,7 @@ footer, footer a
 /* Desktop Pequeño */
 @media screen and (max-width: 1100px)
 {
-    .page
+    .page, .subnavegator-content
     {
         width: 86%;
     }
@@ -738,7 +738,7 @@ footer, footer a
 /* Medio */
 @media screen and (max-width: 900px)
 {
-    .page
+    .page, .subnavegator-content
     {
         width: 96%;
     }
@@ -748,7 +748,244 @@ footer, footer a
 @media screen and (max-width: 800px)
 {
     
+   .page
+   {
+       width: 80%;
+   }
+
+   .content-title
+   {
+       font-size: 20px;
+       margin-top: 40px;
+       display: flex;
+    justify-content: center;
+    padding: 0 0;
+   }
+
+    .normal-projects
+    {
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: 100%;
+        padding-top: 20px;
+        gap: 20px;
+    }
+
+    .special-projects
+    {
+        padding: 20px 0;
+    }
+
+    .special-project-box-photo img
+    {
+        width: 200px;
+    }
+
+    .special-project-box-description h3,
+    .special-project-box-description p,
+    .special-project-box-description a
+    {
+        width: 82%;
+    }
+
+    .special-project-box-description p
+    {
+        font-size: 14px;
+    }
+
+    .blog-banner
+    {
+        height: 360px;
+        font-size: 20px;
+        margin: 20px 0 10px 0;
+    }
+
+    .blog-banner-image img
+    {
+        height: 220px;
+    }
+
+    .blog-banner-message a
+    {
+        margin-top: 20px;
+    }
+
+    .social-networks
+    {
+        gap: 20px;
+    }
+
+    .social-media-box
+    {
+        height: 120px;
+    }
+
+    .social-media-icon, .social-media-name,
+    .contact-box-icon, .contact-box-name
+    {
+        width: auto;
+    }
+
+    .social-media-name, .contact-box-name
+    {
+        margin-left: 23px;
+    }
+
+    .social-media-icon img, .contact-box-icon img
+    {
+        width: 68px;
+        height: 68px;
+    }
+
+    .social-media-name
+    {
+        font-size: 24px;
+    }
+
+    .contact-box
+    {
+        height: 120px;
+        margin: 20px 0;
+        justify-content: center;
+    }
+
+    .contact-box-name
+    {
+        font-size: 26px;
+    }
+
+    .subnavegator-content
+    {
+        width: 100%;
+    }
+
+    .information
+    {
+        width: 30%;
+    }
+
+    .social-balls
+    {
+        width: 40%;
+    }
+
+    .up
+    {
+        width: 30%;
+    }
 }
+
+/* Normal Phone */
+@media screen and (max-width: 680px)
+{
+    .page
+   {
+       width: 80%;
+   }
+    
+    .navegator
+    {
+        display: none;
+    }
+
+    .content-title
+    {
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    .project-box
+    {
+        height: 220px;
+    }
+
+    .project-box-icon img
+    {
+        width: 80px;
+        height: 80px;
+    }
+
+    .project-box-description
+    {
+        font-size: 12px;
+    }
+
+    .special-project-box-photo img
+    {
+        width: 180px;
+    }
+
+    .blog-banner
+    {
+        height: 280px;
+    }
+
+
+    .social-media-name
+    {
+        margin-left: 10px;
+    }
+
+    .social-media-name a
+    {
+        font-size: 22px;
+    }
+
+    .contact-box
+    {
+        height: 100px;
+        margin: 20px 0;
+    }
+
+    .contact-box-icon img
+    {
+        width: 60px;
+    }
+
+    .contact-box-name a
+    {
+        font-size: 22px;
+    }
+
+    .subnavegator
+    {
+        width: 100%;
+    }
+}
+
+
+/* Sólo special project boxes y redes sociales */
+@media screen and (max-width: 580px)
+{
+    .social-networks
+    {
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: 100%;
+        padding-top: 20px;
+    }
+
+    /* .social-media-box
+    {
+        height: 100px;
+    }
+
+    .special-project-box
+    {
+        height: 300px;
+    } */
+
+    .special-project-box-description a
+    {
+        font-size: 20px;
+    }
+
+    .special-project-box-photo img
+    {
+        width: 140px;
+    }
+
+}
+
+
 
 /* Normal Phone */
 @media screen and (max-width: 480px)
