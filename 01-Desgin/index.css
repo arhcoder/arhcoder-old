@@ -63,7 +63,7 @@ strong
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
-        text-align: justify;
+        text-align: left;
     }
 
     .master-message a
