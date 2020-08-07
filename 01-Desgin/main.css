@@ -345,6 +345,11 @@ de redes sociales. Se eliminó por mera cuestión estética.
                 text-decoration: none;
             }
 
+            .special-project-description-replacement, .information-replacement
+            {
+                display: none;
+            }
+
             #ensecode-project-button
             {
                 background: #0858C3;
@@ -755,11 +760,11 @@ footer, footer a
 
    .content-title
    {
-       font-size: 20px;
-       margin-top: 40px;
-       display: flex;
-    justify-content: center;
-    padding: 0 0;
+        font-size: 20px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        padding: 0 0;
    }
 
     .normal-projects
@@ -841,6 +846,11 @@ footer, footer a
         font-size: 24px;
     }
 
+    .contact
+    {
+        margin-bottom: 40px;
+    }
+
     .contact-box
     {
         height: 120px;
@@ -878,13 +888,26 @@ footer, footer a
 @media screen and (max-width: 680px)
 {
     .page
-   {
+    {
        width: 80%;
-   }
+    }
     
-    .navegator
+    .navegator-menu
     {
         display: none;
+    }
+
+    .navegator
+    {
+        justify-content: center;
+        height: 60px;
+    }
+
+    .navegator-special
+    {
+        width: 100%;
+        justify-content: center;
+        margin-right: 0;
     }
 
     .content-title
@@ -950,6 +973,22 @@ footer, footer a
     {
         width: 100%;
     }
+
+    .information-link
+    {
+        display: none;
+    }
+
+    .information-replacement
+    {
+        display: inline-block;
+    }
+
+    .information-replacement img
+    {
+        width: 38px;
+        height: 38px;
+    }
 }
 
 
@@ -963,19 +1002,26 @@ footer, footer a
         padding-top: 20px;
     }
 
-    /* .social-media-box
+    .special-project-box-photo, .special-project-box-description p
     {
-        height: 100px;
+        display: none;
     }
 
-    .special-project-box
+    .special-project-box-description
     {
-        height: 300px;
-    } */
+        width: 100%;
+    }
+
+    .special-project-description-replacement
+    {
+        display: inline-block;
+        width: 180px;
+    }
 
     .special-project-box-description a
     {
-        font-size: 20px;
+        width: 60%;
+        font-size: 22px;
     }
 
     .special-project-box-photo img
@@ -983,14 +1029,24 @@ footer, footer a
         width: 140px;
     }
 
+    .blog-banner
+    {
+        font-size: 18px;
+    }
+
+    .blog-banner-image img
+    {
+        height: 180px;
+    }
 }
-
-
 
 /* Normal Phone */
 @media screen and (max-width: 480px)
 {
-
+    .social-networks
+    {
+        grid-template-columns: 100%;
+    }
 }
 
 /* Mini Phone */
