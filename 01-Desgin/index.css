@@ -21,6 +21,11 @@ div
     box-sizing: border-box;
 }
 
+h1
+{
+    font-weight: lighter;
+}
+
 strong
 {
     color: #0084F6;
@@ -38,7 +43,7 @@ strong
     .master-image
     {
         width: 50%;
-        height: 100%;
+        height: 53vh;
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -53,10 +58,10 @@ strong
     .master-message
     {
         width: calc(50% - 80px);
-        height: 100%;
+        height: 53vh;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: flex-start;
         text-align: justify;
     }
@@ -69,7 +74,6 @@ strong
         text-decoration: none;
         border-radius: 8pt;
         justify-self: flex-end;
-        margin-top: 53px;
     }
 
 .master-message a:hover
