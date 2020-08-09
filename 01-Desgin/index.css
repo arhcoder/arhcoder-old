@@ -4,16 +4,20 @@
     padding: 0;
 }
 
+html
+{
+    font-family: "Gotham Bold";
+    font-size: 20px;
+    color: #FFF;
+}
+
 body
 {
     margin: 0;
     padding: 0;
     background: -webkit-linear-gradient(left, #45046A 0%, #5C2A9E 100%);
-    width: 100%;
-    height: 100%;
-    font-family: "Gotham Bold";
-    font-size: 20px;
-    color: #FFF;
+    width: 100vw;
+    height: 100vh;
 }
 
 div
@@ -35,30 +39,31 @@ strong
 {
     width: 100vw;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
     .master-image
     {
         width: 50%;
-        height: 53vh;
+        height: 68vh;
         display: flex;
-        justify-content: flex-start;
+        justify-content: flex-end;
         align-items: center;
     }
 
     .master-image img
     {
-        width: 620px;
-        height: 460px;
+        height: calc(100% - 1rem);
     }
 
     .master-message
     {
-        width: calc(50% - 80px);
-        height: 53vh;
+        width: 50%;
+        height: 68vh;
+        margin-left: 6rem;
+        padding: 6rem 0;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -80,3 +85,58 @@ strong
 {
     background: #0084F6;
 }
+
+/* @media screen and (max-width: 2000px)
+{
+    .master-message
+    {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 1580px)
+{
+    .master-image img
+    {
+        height: calc(100% - 3rem);
+    }
+    
+    .master-message
+    {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 1480px)
+{
+    .master-image img
+    {
+        width: calc(96% - 1rem);
+    }
+    
+    .master-message
+    {
+        font-size: 1.18rem;
+    }
+}
+
+@media screen and (max-width: 1280px)
+{
+    .master-image img
+    {
+        width: calc(96% - 1rem);
+    }
+    
+    .master-message
+    {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 1000px)
+{
+    .master-message
+    {
+        font-size: 1.3rem;
+    }
+} */
