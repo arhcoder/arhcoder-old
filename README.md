@@ -1,6 +1,6 @@
 <a href="https://arhcoder.github.io/arhcoder/" target="_blank"><img align="left" alt="Laptop" width="280px" src="https://arhcoder.github.io/arhcoder/02-Images/main-banner.svg"/></a>
 
-# 🦝 Bienveindo!
+# 🦝 Bienvenido!
 
 Mi nombre es **Alejandro Ramos**, soy un desarrollador de **software** aficionado a la **música** y el **diseño**. Me encanta aprender de todo y crear de todo. Actualmente estoy aprendiendo sobre **Inteligencia Artificial** y **Machine Learning**, pero me gusta programar de todo.
 
